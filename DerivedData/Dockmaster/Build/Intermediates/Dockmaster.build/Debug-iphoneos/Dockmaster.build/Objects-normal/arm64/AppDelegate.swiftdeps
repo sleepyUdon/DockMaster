@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C10Dockmaster11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillResignActive"
-- "applicationWillTerminate"
-- "window"
-- "applicationWillEnterForeground"
-- "applicationDidBecomeActive"
 - "applicationDidEnterBackground"
+- "applicationWillEnterForeground"
+- "window"
+- "applicationWillResignActive"
+- "applicationDidBecomeActive"
 - "application"
+- "applicationWillTerminate"
 depends-top-level:
-- "UIApplicationLaunchOptionsKey"
-- "AppDelegate"
-- "UIWindow"
-- "UIApplication"
-- "UIResponder"
-- "UIApplicationDelegate"
-- !private "BooleanLiteralType"
 - "Bool"
+- "UIResponder"
+- !private "BooleanLiteralType"
+- "AppDelegate"
+- "UIApplicationLaunchOptionsKey"
+- "UIApplication"
+- "UIApplicationDelegate"
+- "UIWindow"
 depends-member:
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]
@@ -253,6 +253,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/Firebase/Core/Sources/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
