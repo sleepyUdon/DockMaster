@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61DE305784C14C2C7F39E7AA /* Pods_Dockmaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0239B2A8FD1D239D315E0114 /* Pods_Dockmaster.framework */; };
 		7C9437A31E286D0500524F03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9437A21E286D0500524F03 /* AppDelegate.swift */; };
 		7C9437A51E286D0500524F03 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9437A41E286D0500524F03 /* FirstViewController.swift */; };
 		7C9437A71E286D0500524F03 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9437A61E286D0500524F03 /* SecondViewController.swift */; };
@@ -15,6 +16,9 @@
 		7C9437AF1E286D0500524F03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C9437AD1E286D0500524F03 /* LaunchScreen.storyboard */; };
 		7C9437BA1E286D0500524F03 /* DockmasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9437B91E286D0500524F03 /* DockmasterTests.swift */; };
 		7C9437C51E286D0500524F03 /* DockmasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9437C41E286D0500524F03 /* DockmasterUITests.swift */; };
+		7C9437D31E286D0F00524F03 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C9437D21E286D0F00524F03 /* GoogleService-Info.plist */; };
+		CE2F5ADB975CB3B456B76C81 /* Pods_DockmasterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 595D705078883548B1656C72 /* Pods_DockmasterTests.framework */; };
+		F288FCE9026B031369C6B7FD /* Pods_DockmasterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31C1AFFDFCA5F41B8237D42 /* Pods_DockmasterUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0239B2A8FD1D239D315E0114 /* Pods_Dockmaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dockmaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B9712C65ED9FF17279652A /* Pods-DockmasterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DockmasterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DockmasterTests/Pods-DockmasterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		595D705078883548B1656C72 /* Pods_DockmasterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DockmasterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C94379F1E286D0500524F03 /* Dockmaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dockmaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9437A21E286D0500524F03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C9437A41E286D0500524F03 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		7C9437C01E286D0500524F03 /* DockmasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DockmasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9437C41E286D0500524F03 /* DockmasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockmasterUITests.swift; sourceTree = "<group>"; };
 		7C9437C61E286D0500524F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C9437D21E286D0F00524F03 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		939C8A1A476FF8D99860F3A0 /* Pods-DockmasterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DockmasterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DockmasterUITests/Pods-DockmasterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC14F7364FD0BCB9A1834604 /* Pods-Dockmaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dockmaster.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dockmaster/Pods-Dockmaster.release.xcconfig"; sourceTree = "<group>"; };
+		E1C3CB1FBD96CE676798DDDF /* Pods-DockmasterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DockmasterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DockmasterUITests/Pods-DockmasterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E1E480D041554B5160B3319F /* Pods-Dockmaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dockmaster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dockmaster/Pods-Dockmaster.debug.xcconfig"; sourceTree = "<group>"; };
+		E31A2C4220B69E4E744E15E8 /* Pods-DockmasterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DockmasterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DockmasterTests/Pods-DockmasterTests.release.xcconfig"; sourceTree = "<group>"; };
+		E31C1AFFDFCA5F41B8237D42 /* Pods_DockmasterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DockmasterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61DE305784C14C2C7F39E7AA /* Pods_Dockmaster.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2F5ADB975CB3B456B76C81 /* Pods_DockmasterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F288FCE9026B031369C6B7FD /* Pods_DockmasterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2ECB0418C17D501C95C7445A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1E480D041554B5160B3319F /* Pods-Dockmaster.debug.xcconfig */,
+				DC14F7364FD0BCB9A1834604 /* Pods-Dockmaster.release.xcconfig */,
+				06B9712C65ED9FF17279652A /* Pods-DockmasterTests.debug.xcconfig */,
+				E31A2C4220B69E4E744E15E8 /* Pods-DockmasterTests.release.xcconfig */,
+				939C8A1A476FF8D99860F3A0 /* Pods-DockmasterUITests.debug.xcconfig */,
+				E1C3CB1FBD96CE676798DDDF /* Pods-DockmasterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		427384894AEE0AEB1E91795E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0239B2A8FD1D239D315E0114 /* Pods_Dockmaster.framework */,
+				595D705078883548B1656C72 /* Pods_DockmasterTests.framework */,
+				E31C1AFFDFCA5F41B8237D42 /* Pods_DockmasterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7C9437961E286D0500524F03 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				7C9437B81E286D0500524F03 /* DockmasterTests */,
 				7C9437C31E286D0500524F03 /* DockmasterUITests */,
 				7C9437A01E286D0500524F03 /* Products */,
+				2ECB0418C17D501C95C7445A /* Pods */,
+				427384894AEE0AEB1E91795E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +148,7 @@
 				7C9437AB1E286D0500524F03 /* Assets.xcassets */,
 				7C9437AD1E286D0500524F03 /* LaunchScreen.storyboard */,
 				7C9437B01E286D0500524F03 /* Info.plist */,
+				7C9437D21E286D0F00524F03 /* GoogleService-Info.plist */,
 			);
 			path = Dockmaster;
 			sourceTree = "<group>";
@@ -135,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C9437C91E286D0500524F03 /* Build configuration list for PBXNativeTarget "Dockmaster" */;
 			buildPhases = (
+				1FCB17D0883BBD0C4C63BE00 /* [CP] Check Pods Manifest.lock */,
 				7C94379B1E286D0500524F03 /* Sources */,
 				7C94379C1E286D0500524F03 /* Frameworks */,
 				7C94379D1E286D0500524F03 /* Resources */,
+				20587DDFD328B6579AA455E5 /* [CP] Embed Pods Frameworks */,
+				647825913016442E704EDD60 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C9437CC1E286D0500524F03 /* Build configuration list for PBXNativeTarget "DockmasterTests" */;
 			buildPhases = (
+				BE5D809CF588E64A571D5971 /* [CP] Check Pods Manifest.lock */,
 				7C9437B11E286D0500524F03 /* Sources */,
 				7C9437B21E286D0500524F03 /* Frameworks */,
 				7C9437B31E286D0500524F03 /* Resources */,
+				FC8AFB479D48D2A80D3E15E0 /* [CP] Embed Pods Frameworks */,
+				AD7557AEAEACB34F8F3E56CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C9437CF1E286D0500524F03 /* Build configuration list for PBXNativeTarget "DockmasterUITests" */;
 			buildPhases = (
+				751D9BD7D1E69F905CFE8AE7 /* [CP] Check Pods Manifest.lock */,
 				7C9437BC1E286D0500524F03 /* Sources */,
 				7C9437BD1E286D0500524F03 /* Frameworks */,
 				7C9437BE1E286D0500524F03 /* Resources */,
+				73D55D90E3C7F9DF7C7582E8 /* [CP] Embed Pods Frameworks */,
+				FC4314C7AD36FDDC1C99793E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C9437AF1E286D0500524F03 /* LaunchScreen.storyboard in Resources */,
+				7C9437D31E286D0F00524F03 /* GoogleService-Info.plist in Resources */,
 				7C9437AC1E286D0500524F03 /* Assets.xcassets in Resources */,
 				7C9437AA1E286D0500524F03 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +312,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FCB17D0883BBD0C4C63BE00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		20587DDFD328B6579AA455E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dockmaster/Pods-Dockmaster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		647825913016442E704EDD60 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dockmaster/Pods-Dockmaster-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73D55D90E3C7F9DF7C7582E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DockmasterUITests/Pods-DockmasterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		751D9BD7D1E69F905CFE8AE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD7557AEAEACB34F8F3E56CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DockmasterTests/Pods-DockmasterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE5D809CF588E64A571D5971 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC4314C7AD36FDDC1C99793E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DockmasterUITests/Pods-DockmasterUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC8AFB479D48D2A80D3E15E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DockmasterTests/Pods-DockmasterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C94379B1E286D0500524F03 /* Sources */ = {
@@ -417,6 +608,7 @@
 		};
 		7C9437CA1E286D0500524F03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E480D041554B5160B3319F /* Pods-Dockmaster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3B28785LQY;
@@ -430,6 +622,7 @@
 		};
 		7C9437CB1E286D0500524F03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC14F7364FD0BCB9A1834604 /* Pods-Dockmaster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3B28785LQY;
@@ -443,6 +636,7 @@
 		};
 		7C9437CD1E286D0500524F03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B9712C65ED9FF17279652A /* Pods-DockmasterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +652,7 @@
 		};
 		7C9437CE1E286D0500524F03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31A2C4220B69E4E744E15E8 /* Pods-DockmasterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +668,7 @@
 		};
 		7C9437D01E286D0500524F03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939C8A1A476FF8D99860F3A0 /* Pods-DockmasterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 3B28785LQY;
@@ -487,6 +683,7 @@
 		};
 		7C9437D11E286D0500524F03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C3CB1FBD96CE676798DDDF /* Pods-DockmasterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 3B28785LQY;
