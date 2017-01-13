@@ -14,7 +14,11 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
                BlueprintIdentifier = "6097D138C228974582ACE23D6B0FEE74"
+=======
+               BlueprintIdentifier = "A50636A14C951DC045545932CAC50270"
+>>>>>>> 43154060ab2924320cdab2a2389acf453b79a594
                BuildableName = "Pods_Dockmaster.framework"
                BlueprintName = "Pods-Dockmaster"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +49,11 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "6097D138C228974582ACE23D6B0FEE74"
+=======
+            BlueprintIdentifier = "A50636A14C951DC045545932CAC50270"
+>>>>>>> 43154060ab2924320cdab2a2389acf453b79a594
             BuildableName = "Pods_Dockmaster.framework"
             BlueprintName = "Pods-Dockmaster"
             ReferencedContainer = "container:Pods.xcodeproj">

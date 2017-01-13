@@ -1,0 +1,164 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppState"
+provides-nominal:
+- "C10Dockmaster8AppState"
+provides-member:
+- ["C10Dockmaster8AppState", ""]
+provides-dynamic-lookup:
+- "companyName"
+- "phoneNumber"
+- "sharedInstance"
+- "signedIn"
+- "displayName"
+depends-top-level:
+- "String"
+- "BooleanLiteralType"
+- "NSObject"
+- "AppState"
+depends-member:
+- ["Ps9AnyObject", "AppState"]
+- ["Ps9AnyObject", "companyName"]
+- ["Ps9AnyObject", "displayName"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "phoneNumber"]
+- ["Ps9AnyObject", "sharedInstance"]
+- ["Ps9AnyObject", "signedIn"]
+- ["Ps9AnyObject", ""]
+- ["C10Dockmaster8AppState", "AppState"]
+- ["C10Dockmaster8AppState", "String"]
+- ["C10Dockmaster8AppState", "companyName"]
+- ["C10Dockmaster8AppState", "deinit"]
+- ["C10Dockmaster8AppState", "displayName"]
+- ["C10Dockmaster8AppState", "init"]
+- ["C10Dockmaster8AppState", "phoneNumber"]
+- ["C10Dockmaster8AppState", "sharedInstance"]
+- ["C10Dockmaster8AppState", "signedIn"]
+- ["Sb", "deinit"]
+- ["Ps7CVarArg", "AppState"]
+- ["Ps7CVarArg", "companyName"]
+- ["Ps7CVarArg", "displayName"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "phoneNumber"]
+- ["Ps7CVarArg", "sharedInstance"]
+- ["Ps7CVarArg", "signedIn"]
+- ["Ps7CVarArg", ""]
+- ["Ps28CustomDebugStringConvertible", "AppState"]
+- ["Ps28CustomDebugStringConvertible", "companyName"]
+- ["Ps28CustomDebugStringConvertible", "displayName"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "phoneNumber"]
+- ["Ps28CustomDebugStringConvertible", "sharedInstance"]
+- ["Ps28CustomDebugStringConvertible", "signedIn"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "AppState"]
+- ["Ps23CustomStringConvertible", "companyName"]
+- ["Ps23CustomStringConvertible", "displayName"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "phoneNumber"]
+- ["Ps23CustomStringConvertible", "sharedInstance"]
+- ["Ps23CustomStringConvertible", "signedIn"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "AppState"]
+- ["Ps9Equatable", "companyName"]
+- ["Ps9Equatable", "displayName"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "phoneNumber"]
+- ["Ps9Equatable", "sharedInstance"]
+- ["Ps9Equatable", "signedIn"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "AppState"]
+- ["Ps8Hashable", "companyName"]
+- ["Ps8Hashable", "displayName"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "phoneNumber"]
+- ["Ps8Hashable", "sharedInstance"]
+- ["Ps8Hashable", "signedIn"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "AppState"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "companyName"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "displayName"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "phoneNumber"]
+- ["CSo8NSObject", "sharedInstance"]
+- ["CSo8NSObject", "signedIn"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "AppState"]
+- ["PSo16NSObjectProtocol", "companyName"]
+- ["PSo16NSObjectProtocol", "displayName"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "phoneNumber"]
+- ["PSo16NSObjectProtocol", "sharedInstance"]
+- ["PSo16NSObjectProtocol", "signedIn"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- ["Ps9_Hashable", "AppState"]
+- ["Ps9_Hashable", "companyName"]
+- ["Ps9_Hashable", "displayName"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "phoneNumber"]
+- ["Ps9_Hashable", "sharedInstance"]
+- ["Ps9_Hashable", "signedIn"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C10Dockmaster8AppState"
+- "Sb"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIREmailPasswordAuthProvider.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Pods/Firebase/Core/Sources/Firebase.h"
+interface-hash: "885ceee45be8230d94e419dccf603b28"

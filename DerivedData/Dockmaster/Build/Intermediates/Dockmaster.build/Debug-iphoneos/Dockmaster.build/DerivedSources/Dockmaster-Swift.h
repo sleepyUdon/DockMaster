@@ -116,6 +116,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -135,6 +136,18 @@ SWIFT_CLASS("_TtC10Dockmaster11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC10Dockmaster8AppState")
+@interface AppState : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AppState * _Nonnull sharedInstance;)
++ (AppState * _Nonnull)sharedInstance;
+@property (nonatomic) BOOL signedIn;
+@property (nonatomic, copy) NSString * _Nullable displayName;
+@property (nonatomic, copy) NSString * _Nullable companyName;
+@property (nonatomic, copy) NSString * _Nullable phoneNumber;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class NSBundle;
 @class NSCoder;
 
@@ -146,11 +159,54 @@ SWIFT_CLASS("_TtC10Dockmaster19FirstViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIButton;
+
+SWIFT_CLASS("_TtC10Dockmaster22ProjectsViewController")
+@interface ProjectsViewController : UIViewController
+- (IBAction)handleSignOutButton:(UIButton * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC10Dockmaster20SecondViewController")
 @interface SecondViewController : UIViewController
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class FIRUser;
+@class UITextField;
+
+SWIFT_CLASS("_TtC10Dockmaster20SignInViewController")
+@interface SignInViewController : UIViewController <UITextFieldDelegate>
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified emailField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified passwordField;
+- (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
+- (IBAction)didTapSignIn:(id _Nonnull)sender;
+- (IBAction)didTapSignUp:(id _Nonnull)sender;
+- (IBAction)didRequestPasswordReset:(id _Nonnull)sender;
+- (void)signedIn:(FIRUser * _Nullable)user;
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10Dockmaster20SignupViewController")
+@interface SignupViewController : UIViewController <UITextFieldDelegate>
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified firstNameField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified lastNameField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified companyField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified phoneNumberField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified emailField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified passwordField;
+- (void)viewDidLoad;
+- (IBAction)didTapSignUp:(id _Nonnull)sender;
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
