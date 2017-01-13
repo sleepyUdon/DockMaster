@@ -7,6 +7,8 @@ target 'Dockmaster' do
 
   # Pods for Dockmaster
 pod 'Firebase/Core'
+pod 'Firebase/Auth'
+
 
 
   target 'DockmasterTests' do

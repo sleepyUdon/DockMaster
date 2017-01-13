@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "31ef9e038a7dbefff017b31f54763b9f"
+build_time: [537589911, 723273000]
+inputs:
+  "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Dockmaster/SignInViewController.swift": !dirty [537589792, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Dockmaster/AppState.swift": [537589911, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Dockmaster/SecondViewController.swift": [537588229, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Dockmaster/Constants.swift": [537289405, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Dockmaster/AppDelegate.swift": [537588410, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Dockmaster/FirstViewController.swift": [537588229, 0]

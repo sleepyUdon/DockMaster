@@ -116,6 +116,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import ObjectiveC;
+@import Foundation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -135,6 +137,17 @@ SWIFT_CLASS("_TtC10Dockmaster11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC10Dockmaster8AppState")
+@interface AppState : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AppState * _Nonnull sharedInstance;)
++ (AppState * _Nonnull)sharedInstance;
+@property (nonatomic) BOOL signedIn;
+@property (nonatomic, copy) NSString * _Nullable displayName;
+@property (nonatomic, copy) NSURL * _Nullable photoURL;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class NSBundle;
 @class NSCoder;
 
@@ -151,6 +164,38 @@ SWIFT_CLASS("_TtC10Dockmaster20SecondViewController")
 @interface SecondViewController : UIViewController
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class FIRUser;
+@class UITextField;
+
+SWIFT_CLASS("_TtC10Dockmaster20SignInViewController")
+@interface SignInViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified emailField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified passwordField;
+- (void)viewDidAppear:(BOOL)animated;
+- (IBAction)didTapSignIn:(id _Nonnull)sender;
+- (IBAction)didTapSignUp:(id _Nonnull)sender;
+- (void)setDisplayName:(FIRUser * _Nonnull)user;
+- (IBAction)didRequestPasswordReset:(id _Nonnull)sender;
+- (void)signedIn:(FIRUser * _Nullable)user;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10Dockmaster20SignupViewController")
+@interface SignupViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified emailField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified passwordField;
+- (void)viewDidAppear:(BOOL)animated;
+- (IBAction)didTapSignIn:(id _Nonnull)sender;
+- (IBAction)didTapSignUp:(id _Nonnull)sender;
+- (void)setDisplayName:(FIRUser * _Nonnull)user;
+- (IBAction)didRequestPasswordReset:(id _Nonnull)sender;
+- (void)signedIn:(FIRUser * _Nullable)user;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

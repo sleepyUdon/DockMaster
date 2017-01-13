@@ -17,6 +17,10 @@
 		7C9437BA1E286D0500524F03 /* DockmasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9437B91E286D0500524F03 /* DockmasterTests.swift */; };
 		7C9437C51E286D0500524F03 /* DockmasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9437C41E286D0500524F03 /* DockmasterUITests.swift */; };
 		7C9437D31E286D0F00524F03 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C9437D21E286D0F00524F03 /* GoogleService-Info.plist */; };
+		7C9437D51E286DFD00524F03 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9437D41E286DFD00524F03 /* SignInViewController.swift */; };
+		7C9437D91E28732000524F03 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9437D81E28732000524F03 /* AppState.swift */; };
+		7C9437DD1E28733F00524F03 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9437DC1E28733F00524F03 /* Constants.swift */; };
+		7C9437DF1E28767400524F03 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9437DE1E28767400524F03 /* SignupViewController.swift */; };
 		CE2F5ADB975CB3B456B76C81 /* Pods_DockmasterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 595D705078883548B1656C72 /* Pods_DockmasterTests.framework */; };
 		F288FCE9026B031369C6B7FD /* Pods_DockmasterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31C1AFFDFCA5F41B8237D42 /* Pods_DockmasterUITests.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +61,10 @@
 		7C9437C41E286D0500524F03 /* DockmasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockmasterUITests.swift; sourceTree = "<group>"; };
 		7C9437C61E286D0500524F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C9437D21E286D0F00524F03 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7C9437D41E286DFD00524F03 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		7C9437D81E28732000524F03 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		7C9437DC1E28733F00524F03 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7C9437DE1E28767400524F03 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		939C8A1A476FF8D99860F3A0 /* Pods-DockmasterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DockmasterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DockmasterUITests/Pods-DockmasterUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC14F7364FD0BCB9A1834604 /* Pods-Dockmaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dockmaster.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dockmaster/Pods-Dockmaster.release.xcconfig"; sourceTree = "<group>"; };
 		E1C3CB1FBD96CE676798DDDF /* Pods-DockmasterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DockmasterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DockmasterUITests/Pods-DockmasterUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -142,11 +150,14 @@
 			isa = PBXGroup;
 			children = (
 				7C9437A21E286D0500524F03 /* AppDelegate.swift */,
+				7C9437E01E28767B00524F03 /* SignupVC */,
+				7C9437D61E286E0400524F03 /* SigninVC */,
 				7C9437A41E286D0500524F03 /* FirstViewController.swift */,
 				7C9437A61E286D0500524F03 /* SecondViewController.swift */,
-				7C9437A81E286D0500524F03 /* Main.storyboard */,
+				7C9437D81E28732000524F03 /* AppState.swift */,
+				7C9437DC1E28733F00524F03 /* Constants.swift */,
+				7C9437D71E286E4200524F03 /* Storyboard */,
 				7C9437AB1E286D0500524F03 /* Assets.xcassets */,
-				7C9437AD1E286D0500524F03 /* LaunchScreen.storyboard */,
 				7C9437B01E286D0500524F03 /* Info.plist */,
 				7C9437D21E286D0F00524F03 /* GoogleService-Info.plist */,
 			);
@@ -169,6 +180,31 @@
 				7C9437C61E286D0500524F03 /* Info.plist */,
 			);
 			path = DockmasterUITests;
+			sourceTree = "<group>";
+		};
+		7C9437D61E286E0400524F03 /* SigninVC */ = {
+			isa = PBXGroup;
+			children = (
+				7C9437D41E286DFD00524F03 /* SignInViewController.swift */,
+			);
+			name = SigninVC;
+			sourceTree = "<group>";
+		};
+		7C9437D71E286E4200524F03 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7C9437AD1E286D0500524F03 /* LaunchScreen.storyboard */,
+				7C9437A81E286D0500524F03 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		7C9437E01E28767B00524F03 /* SignupVC */ = {
+			isa = PBXGroup;
+			children = (
+				7C9437DE1E28767400524F03 /* SignupViewController.swift */,
+			);
+			name = SignupVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,7 +362,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		20587DDFD328B6579AA455E5 /* [CP] Embed Pods Frameworks */ = {
@@ -386,7 +422,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		AD7557AEAEACB34F8F3E56CB /* [CP] Copy Pods Resources */ = {
@@ -416,7 +452,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		FC4314C7AD36FDDC1C99793E /* [CP] Copy Pods Resources */ = {
@@ -456,7 +492,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9437D51E286DFD00524F03 /* SignInViewController.swift in Sources */,
+				7C9437DF1E28767400524F03 /* SignupViewController.swift in Sources */,
+				7C9437D91E28732000524F03 /* AppState.swift in Sources */,
 				7C9437A71E286D0500524F03 /* SecondViewController.swift in Sources */,
+				7C9437DD1E28733F00524F03 /* Constants.swift in Sources */,
 				7C9437A31E286D0500524F03 /* AppDelegate.swift in Sources */,
 				7C9437A51E286D0500524F03 /* FirstViewController.swift in Sources */,
 			);
@@ -715,6 +755,7 @@
 				7C9437CB1E286D0500524F03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C9437CC1E286D0500524F03 /* Build configuration list for PBXNativeTarget "DockmasterTests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +764,7 @@
 				7C9437CE1E286D0500524F03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C9437CF1E286D0500524F03 /* Build configuration list for PBXNativeTarget "DockmasterUITests" */ = {
 			isa = XCConfigurationList;
@@ -731,6 +773,7 @@
 				7C9437D11E286D0500524F03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
