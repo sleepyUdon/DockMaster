@@ -8,32 +8,32 @@ provides-member:
 provides-dynamic-lookup:
 - "emailField"
 - "signedIn"
-- "didTapSignIn"
-- "viewDidAppear"
 - "didRequestPasswordReset"
 - "didTapSignUp"
 - "passwordField"
 - "setDisplayName"
+- "viewDidAppear"
+- "didTapSignIn"
 depends-top-level:
-- "Bool"
-- !private "BooleanLiteralType"
-- !private "UIAlertAction"
+- !private "UnicodeScalarType"
+- !private "Constants"
+- "UITextField"
 - !private "print"
 - "AnyObject"
-- "FIRUser"
-- !private "Notification"
+- !private "UIAlertController"
 - !private "??"
 - "UIViewController"
-- !private "Constants"
-- !private "StringLiteralType"
-- !private "UIAlertController"
-- "SignInViewController"
-- !private "UnicodeScalarType"
+- "FIRUser"
+- !private "UIAlertAction"
+- !private "Notification"
 - "AssignmentPrecedence"
-- !private "FIRAuth"
 - !private "AppState"
+- "SignInViewController"
 - !private "NotificationCenter"
-- "UITextField"
+- !private "StringLiteralType"
+- !private "FIRAuth"
+- !private "BooleanLiteralType"
+- "Bool"
 depends-member:
 - !private ["Ps9AnyObject", "AppState"]
 - !private ["Ps9AnyObject", "Constants"]
@@ -60,7 +60,6 @@ depends-member:
 - !private ["Ps9AnyObject", "isEmpty"]
 - ["Ps9AnyObject", "passwordField"]
 - !private ["Ps9AnyObject", "performSegue"]
-- !private ["Ps9AnyObject", "photoURL"]
 - !private ["Ps9AnyObject", "post"]
 - !private ["Ps9AnyObject", "present"]
 - !private ["Ps9AnyObject", "print"]
@@ -76,7 +75,6 @@ depends-member:
 - ["Ps9AnyObject", ""]
 - ["C10Dockmaster8AppState", "deinit"]
 - !private ["C10Dockmaster8AppState", "displayName"]
-- !private ["C10Dockmaster8AppState", "photoURL"]
 - !private ["C10Dockmaster8AppState", "sharedInstance"]
 - !private ["C10Dockmaster8AppState", "signedIn"]
 - !private ["Sa", "Index"]
@@ -143,7 +141,6 @@ depends-member:
 - !private ["Ps7CVarArg", "isEmpty"]
 - ["Ps7CVarArg", "passwordField"]
 - !private ["Ps7CVarArg", "performSegue"]
-- !private ["Ps7CVarArg", "photoURL"]
 - !private ["Ps7CVarArg", "post"]
 - !private ["Ps7CVarArg", "present"]
 - !private ["Ps7CVarArg", "print"]
@@ -204,7 +201,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
 - ["Ps28CustomDebugStringConvertible", "passwordField"]
 - !private ["Ps28CustomDebugStringConvertible", "performSegue"]
-- !private ["Ps28CustomDebugStringConvertible", "photoURL"]
 - !private ["Ps28CustomDebugStringConvertible", "post"]
 - !private ["Ps28CustomDebugStringConvertible", "present"]
 - !private ["Ps28CustomDebugStringConvertible", "print"]
@@ -273,7 +269,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "isEmpty"]
 - ["Ps23CustomStringConvertible", "passwordField"]
 - !private ["Ps23CustomStringConvertible", "performSegue"]
-- !private ["Ps23CustomStringConvertible", "photoURL"]
 - !private ["Ps23CustomStringConvertible", "post"]
 - !private ["Ps23CustomStringConvertible", "present"]
 - !private ["Ps23CustomStringConvertible", "print"]
@@ -329,7 +324,6 @@ depends-member:
 - !private ["Ps9Equatable", "isEmpty"]
 - ["Ps9Equatable", "passwordField"]
 - !private ["Ps9Equatable", "performSegue"]
-- !private ["Ps9Equatable", "photoURL"]
 - !private ["Ps9Equatable", "post"]
 - !private ["Ps9Equatable", "present"]
 - !private ["Ps9Equatable", "print"]
@@ -375,11 +369,9 @@ depends-member:
 - ["CSo7FIRUser", "deinit"]
 - !private ["CSo7FIRUser", "displayName"]
 - !private ["CSo7FIRUser", "email"]
-- !private ["CSo7FIRUser", "photoURL"]
 - !private ["CSo7FIRUser", "profileChangeRequest"]
 - !private ["PSo11FIRUserInfo", "displayName"]
 - !private ["PSo11FIRUserInfo", "email"]
-- !private ["PSo11FIRUserInfo", "photoURL"]
 - !private ["PSo11FIRUserInfo", "profileChangeRequest"]
 - !private ["CSo27FIRUserProfileChangeRequest", "commitChanges"]
 - ["CSo27FIRUserProfileChangeRequest", "deinit"]
@@ -415,7 +407,6 @@ depends-member:
 - !private ["Ps8Hashable", "isEmpty"]
 - ["Ps8Hashable", "passwordField"]
 - !private ["Ps8Hashable", "performSegue"]
-- !private ["Ps8Hashable", "photoURL"]
 - !private ["Ps8Hashable", "post"]
 - !private ["Ps8Hashable", "present"]
 - !private ["Ps8Hashable", "print"]
@@ -561,7 +552,6 @@ depends-member:
 - !private ["CSo8NSObject", "isEmpty"]
 - ["CSo8NSObject", "passwordField"]
 - !private ["CSo8NSObject", "performSegue"]
-- !private ["CSo8NSObject", "photoURL"]
 - !private ["CSo8NSObject", "post"]
 - !private ["CSo8NSObject", "present"]
 - !private ["CSo8NSObject", "print"]
@@ -599,7 +589,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "isEmpty"]
 - ["PSo16NSObjectProtocol", "passwordField"]
 - !private ["PSo16NSObjectProtocol", "performSegue"]
-- !private ["PSo16NSObjectProtocol", "photoURL"]
 - !private ["PSo16NSObjectProtocol", "post"]
 - !private ["PSo16NSObjectProtocol", "present"]
 - !private ["PSo16NSObjectProtocol", "print"]
@@ -999,7 +988,6 @@ depends-member:
 - !private ["Ps9_Hashable", "isEmpty"]
 - ["Ps9_Hashable", "passwordField"]
 - !private ["Ps9_Hashable", "performSegue"]
-- !private ["Ps9_Hashable", "photoURL"]
 - !private ["Ps9_Hashable", "post"]
 - !private ["Ps9_Hashable", "present"]
 - !private ["Ps9_Hashable", "print"]
