@@ -74,7 +74,13 @@ class ProjectsViewController: UIViewController, UITableViewDelegate, UITableView
         
         let project = projects[indexPath.row]
         cell.titleLabel.text = project.projectName
-//        cell.projectImageView = project.projectPhotoURL
+        
+        if let url = NSURL(string: "\(project.projectPhotoURL)") {
+            if let data = NSData(contentsOf: url as URL) {
+                 cell.projectImageView.image  = UIImage(data: data as Data)
+            }        
+        }
+
 
         return cell
     }
