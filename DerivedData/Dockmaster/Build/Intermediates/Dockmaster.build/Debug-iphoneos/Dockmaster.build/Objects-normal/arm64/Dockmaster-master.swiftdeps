@@ -1,12 +1,16 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
-options: "9ae006b0cc87aedf996f7a10201408c1"
-build_time: [537643892, 257875000]
+options: "cf9422ca2dea3f7b4c4f974cf54b2de2"
+build_time: [537902226, 362969000]
 inputs:
-  "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Dockmaster/ProjectsViewController.swift": [537641480, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Dockmaster/ProjectsViewController.swift": [537902191, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Dockmaster/ProjectsTableViewCell.swift": [537663304, 0]
   "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Dockmaster/SignInViewController.swift": [537643552, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Dockmaster/Asset.swift": [537895807, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Dockmaster/Project.swift": [537823288, 0]
   "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Dockmaster/SignupViewController.swift": [537640681, 0]
   "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Dockmaster/AppState.swift": [537638143, 0]
   "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Dockmaster/SecondViewController.swift": [537591460, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Dockmaster/User.swift": [537895749, 0]
   "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Dockmaster/Constants.swift": [537638870, 0]
-  "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Dockmaster/AppDelegate.swift": [537630786, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Dockmaster/AppDelegate.swift": [537665034, 0]
   "/Users/vivianechan/Documents/1.0 Projects/3.0 Dockmaster/Dockmaster/Dockmaster/FirstViewController.swift": [537591460, 0]

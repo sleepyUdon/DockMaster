@@ -117,6 +117,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
 @import ObjectiveC;
+@import Foundation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -159,10 +160,37 @@ SWIFT_CLASS("_TtC10Dockmaster19FirstViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImageView;
+@class UILabel;
+
+SWIFT_CLASS("_TtC10Dockmaster21ProjectsTableViewCell")
+@interface ProjectsTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified projectImageView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleLabel;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class FIRStorageReference;
+@class FIRDatabaseReference;
+@class UITableView;
 @class UIButton;
 
 SWIFT_CLASS("_TtC10Dockmaster22ProjectsViewController")
-@interface ProjectsViewController : UIViewController
+@interface ProjectsViewController : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+@property (nonatomic, strong) FIRStorageReference * _Null_unspecified storageRef;
+@property (nonatomic, copy) NSString * _Nonnull email;
+@property (nonatomic, readonly, strong) FIRDatabaseReference * _Nonnull ref;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)getUser;
+- (void)configureDatabase;
+- (void)configureStorage;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (IBAction)handleSignOutButton:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

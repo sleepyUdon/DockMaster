@@ -22,6 +22,10 @@
 		7C9437DD1E28733F00524F03 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9437DC1E28733F00524F03 /* Constants.swift */; };
 		7C9437DF1E28767400524F03 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9437DE1E28767400524F03 /* SignupViewController.swift */; };
 		7CBD49591E293C200011F8EA /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBD49581E293C200011F8EA /* ProjectsViewController.swift */; };
+		7CBD495C1E2974370011F8EA /* ProjectsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBD495B1E2974370011F8EA /* ProjectsTableViewCell.swift */; };
+		7CBD495E1E2BF81F0011F8EA /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBD495D1E2BF81F0011F8EA /* Project.swift */; };
+		7CBD49611E2BF8C20011F8EA /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBD49601E2BF8C20011F8EA /* Asset.swift */; };
+		7CBD49631E2BF8F00011F8EA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBD49621E2BF8F00011F8EA /* User.swift */; };
 		CE2F5ADB975CB3B456B76C81 /* Pods_DockmasterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 595D705078883548B1656C72 /* Pods_DockmasterTests.framework */; };
 		F288FCE9026B031369C6B7FD /* Pods_DockmasterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31C1AFFDFCA5F41B8237D42 /* Pods_DockmasterUITests.framework */; };
 /* End PBXBuildFile section */
@@ -67,6 +71,10 @@
 		7C9437DC1E28733F00524F03 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7C9437DE1E28767400524F03 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		7CBD49581E293C200011F8EA /* ProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
+		7CBD495B1E2974370011F8EA /* ProjectsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsTableViewCell.swift; sourceTree = "<group>"; };
+		7CBD495D1E2BF81F0011F8EA /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		7CBD49601E2BF8C20011F8EA /* Asset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		7CBD49621E2BF8F00011F8EA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		939C8A1A476FF8D99860F3A0 /* Pods-DockmasterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DockmasterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DockmasterUITests/Pods-DockmasterUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC14F7364FD0BCB9A1834604 /* Pods-Dockmaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dockmaster.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dockmaster/Pods-Dockmaster.release.xcconfig"; sourceTree = "<group>"; };
 		E1C3CB1FBD96CE676798DDDF /* Pods-DockmasterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DockmasterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DockmasterUITests/Pods-DockmasterUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -152,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				7C9437A21E286D0500524F03 /* AppDelegate.swift */,
+				7CBD495F1E2BF8240011F8EA /* Model */,
 				7CBD495A1E293C250011F8EA /* ProjectsVC */,
 				7C9437E01E28767B00524F03 /* SignupVC */,
 				7C9437D61E286E0400524F03 /* SigninVC */,
@@ -214,8 +223,19 @@
 			isa = PBXGroup;
 			children = (
 				7CBD49581E293C200011F8EA /* ProjectsViewController.swift */,
+				7CBD495B1E2974370011F8EA /* ProjectsTableViewCell.swift */,
 			);
 			name = ProjectsVC;
+			sourceTree = "<group>";
+		};
+		7CBD495F1E2BF8240011F8EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7CBD495D1E2BF81F0011F8EA /* Project.swift */,
+				7CBD49621E2BF8F00011F8EA /* User.swift */,
+				7CBD49601E2BF8C20011F8EA /* Asset.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -504,10 +524,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CBD49591E293C200011F8EA /* ProjectsViewController.swift in Sources */,
+				7CBD495C1E2974370011F8EA /* ProjectsTableViewCell.swift in Sources */,
 				7C9437D51E286DFD00524F03 /* SignInViewController.swift in Sources */,
+				7CBD49611E2BF8C20011F8EA /* Asset.swift in Sources */,
+				7CBD495E1E2BF81F0011F8EA /* Project.swift in Sources */,
 				7C9437DF1E28767400524F03 /* SignupViewController.swift in Sources */,
 				7C9437D91E28732000524F03 /* AppState.swift in Sources */,
 				7C9437A71E286D0500524F03 /* SecondViewController.swift in Sources */,
+				7CBD49631E2BF8F00011F8EA /* User.swift in Sources */,
 				7C9437DD1E28733F00524F03 /* Constants.swift in Sources */,
 				7C9437A31E286D0500524F03 /* AppDelegate.swift in Sources */,
 				7C9437A51E286D0500524F03 /* FirstViewController.swift in Sources */,

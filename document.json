@@ -1,0 +1,74 @@
+{
+  "users": 
+  {
+    "vivianechan@hotmailcom": 
+    {
+      "password" : "Dockmaster15",
+      "firstName": "Viviane",
+      "lastName": "Chan",
+      "company": "CBC",
+      "phoneNumber":"6478365162",
+      "projects": {
+        "111Richmond": true,
+        "85Richmond": true
+      }
+    },
+    "s_djukic@hotmailcom": 
+    {
+      "password" : "Stefan15",
+      "firstName": "Stefan",
+      "lastName": "Djukic",
+      "company": "PCL",
+      "phoneNumber":"4169024525",
+      "projects":{
+        "ParkHyatt": true,
+        "85Richmond": true
+      } 
+    }
+  },
+  "projects":
+  {
+    "111Richmond":
+    {
+      "projectName":"111 Richmond",
+      "address":"111 Richmond Street, Toronto, ON",
+      "contactPerson": "John Doe",
+      "contactNumber": "1234567890",
+      "map1PhotoURL": "https//abcde",
+      "map2PhotoURL": "https//fghij",
+      "users": {
+        "vivianechan@hotmailcom" : true
+      },
+      "assets": {
+        "elevator1" : true
+      }
+    }
+  },
+  "administrators":
+  {
+    "vivianechan@hotmailcom":
+    {
+      "projects": {
+         "111Richmond": true
+      }
+    }
+  },
+  "calendars":
+  {
+    "111Richmond-calendar-elevator1": 
+    {
+      "17-01-01": {
+        "7:00": "vivianechan@hotmail.com",
+        "8:00": "open"
+      },
+      "17-01-02": {
+        "7:00": "vivianechan@hotmail.com",
+        "8:00": "open"
+      }
+    }
+  }
+}
+
+  
+    
+
